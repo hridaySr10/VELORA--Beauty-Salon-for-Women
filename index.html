@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELORA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+  <header class="flex-center">
+    <div class="header-three-grid">
+      <div class="logo">
+        <img src="images/header/logo.png" alt="our logo" title="our website logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a class="first-nav-active" href="#">Home</a></li>
+          <li><a href="#section-about">About</a></li>
+          <li><a href="#section-services">Service</a></li>
+          <li><a href="#section-price">Price</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cta">
+        <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+        <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+        <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <div class="nav-btn-offcanvas">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <div class="nav-menus hamburger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight" onclick="document.getElementById('menu-toggle').click()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas height-show">
+      <div class="offcanvas-box">
+        <nav>
+          <ul>
+            <li><a class="first-nav-active" href="#">Home</a></li>
+            <li><a href="#section-about">About</a></li>
+            <li><a href="#section-services">Service</a></li>
+            <li><a href="#section-price">Price</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="cta">
+          <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+          <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+          <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <!-- ========== Start Section ========== -->
+    <section class="section-hero">
+      <img class="hero-bg" src="images/hero/hero-bg.webp" alt="hero background image">
+      <div class="hero-grid-box">
+        <div class="left-col-text">
+          <h6 class="heading-info-text" style="font-size: 3rem;">welcome</h6>
+          <h1 class="hero-text">Graceful Looks for Every Woman</h1>
+          <div class="contact">
+            <!-- box-1 -->
+            <div class="box box-1">
+              <div class="icon">
+                <a class="border-design" href=""> <i class="ri-phone-fill"></i></a>
+
+              </div>
+              <div class="info">
+                <span>Call Us:</span><br>
+                <a href="">8930040433</a>
+              </div>
+            </div>
+            <!-- box-2 -->
+            <div class="box box-2">
+              <div class="icon">
+                <a class="border-design" href=""><i class="ri-mail-fill"></i></a>
+              </div>
+              <div class="info">
+                <span>Mail Us:</span><br>
+                <a href="">velora-care@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-col-img">
+          <!-- Slider main container -->
+          <div class="splide" id="image-slider">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="images/hero/h-1.webp" alt="our salon images">
+                </li>
+                <li class="splide__slide">
+                  <img src="images/hero/h-2.webp" alt="our salon images">
+                </li>
+                <li class="splide__slide">
+                  <img src="images/hero/h-3.webp" alt="our salon images">
+                </li>
+                <li class="splide__slide">
+                  <img src="images/hero/h-4.webp" alt="our salon images">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Section ========== -->
+
+    <!-- ========== Start about section ========== -->
+    <section class="section-about section-padding" id="section-about">
+      <div class="container">
+        <div class="about-grid-box">
+          <div class="right-col">
+            <div class="top-about">
+              <h6 class="heading-info-text">
+                About Us
+              </h6>
+              <h2 class="heading-main">Why People Choose Us!</h2>
+              <p class="heading-main-desc">At our salon, we believe beauty is more than just a look — it’s an
+                experience. Clients choose us
+                because we
+                combine expert skills with genuine care, ensuring every visit leaves you feeling confident, refreshed,
+                and
+                valued.</p>
+            </div>
+            <div class="mdl-about">
+              <div class="left-box box">
+                <i class="ri-calendar-2-line"></i>
+                <h3 class="data-counter" data-count="25" data-suffix="+"> </h3>
+                <p>Years experience</p>
+              </div>
+              <div class="right-box box">
+                <i class="ri-team-fill"></i>
+                <h3 class="data-counter" data-count="37" data-suffix="k+"></h3>
+                <p>Happy Customers</p>
+              </div>
+            </div>
+            <div class="btm-about">
+              <a class="border-design border-design-btn" href="">Read More</a>
+            </div>
+          </div>
+          <div class="left-col">
+            <div class="top-img">
+              <img src="images/about/about-1.webp" alt="our salon inside image" title="our salon" loading="lazy">
+            </div>
+            <a href="tel:8930040433" class="btm-contact">
+              <div class="icon">
+                <i class="ri-phone-fill"></i>
+              </div>
+              <div class="contact-info">
+                <h4>+91 8930040433</h4>
+                <span>Call us direct 24/7 for get a free consultation</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- ========== End about section ========== -->
+
+    <!-- ========== Start section services ========== -->
+    <section class="section-services section-padding" id="section-services">
+      <div class="container">
+        <div class="service-grid-box">
+          <div class="top-row">
+            <h6 class="heading-info-text">
+              Our Services
+            </h6>
+            <h2 class="heading-main">Explore Our Services</h2>
+          </div>
+          <div class="btm-row">
+            <div class="btm-row-grid-box">
+              <div class="service service-1">
+                <div class="icon">
+                  <img src="images/service/s-1.png" alt="service icon image">
+                </div>
+                <div class="info">
+                  <h5>Haircut</h5>
+                  <p>Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo et tempor eirmod
+                    magna dolore erat amet</p>
+                </div>
+                <div class="service-btn">
+                  <a href="#" class="border-design border-design-btn-padding">Read More</a>
+                </div>
+              </div>
+              <div class="service service-2">
+                <div class="icon">
+                  <img src="images/service/s-2.png" alt="service icon image">
+                </div>
+                <div class="info">
+                  <h5>Makeup</h5>
+                  <p>Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo et tempor eirmod
+                    magna dolore erat amet</p>
+                </div>
+                <div class="service-btn">
+                  <a href="#" class="border-design border-design-btn-padding">Read More</a>
+                </div>
+              </div>
+              <div class="service service-3">
+                <div class="icon">
+                  <img src="images/service/s-3.png" alt="service icon image">
+                </div>
+                <div class="info">
+                  <h5>Manicure</h5>
+                  <p>Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo et tempor eirmod
+                    magna dolore erat amet</p>
+                </div>
+                <div class="service-btn">
+                  <a href="#" class="border-design border-design-btn-padding">Read More</a>
+                </div>
+              </div>
+              <div class="service service-4">
+                <div class="icon">
+                  <img src="images/service/s-4.png" alt="service icon image">
+                </div>
+                <div class="info">
+                  <h5>Pedicure</h5>
+                  <p>Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo et tempor eirmod
+                    magna dolore erat amet</p>
+                </div>
+                <div class="service-btn">
+                  <a href="#" class="border-design border-design-btn-padding">Read More</a>
+                </div>
+              </div>
+              <div class="service service-5">
+                <div class="icon">
+                  <img src="images/service/s-5.png" alt="service icon image">
+                </div>
+                <div class="info">
+                  <h5>Massage</h5>
+                  <p>Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo et tempor eirmod
+                    magna dolore erat amet</p>
+                </div>
+                <div class="service-btn">
+                  <a href="#" class="border-design border-design-btn-padding">Read More</a>
+                </div>
+              </div>
+              <div class="service service-6">
+                <div class="icon">
+                  <img src="images/service/s-6.png" alt="service icon image">
+                </div>
+                <div class="info">
+                  <h5>Skin Care</h5>
+                  <p>Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo et tempor eirmod
+                    magna dolore erat amet</p>
+                </div>
+                <div class="service-btn">
+                  <a href="#" class="border-design border-design-btn-padding">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End - section services ========== -->
+
+    <!-- ========== Start section-pricing ========== -->
+    <section class="section-pricing section-padding" id="section-price">
+
+      <div class="price-grid-box">
+        <div class="left-col">
+          <div class="top-box">
+            <h6 class="heading-info-text">
+              Our Services
+            </h6>
+            <h2 class="heading-main">Explore Our<br> <span>Pricing</span></h2>
+          </div>
+          <div class="btm-box flex-center">
+            <div class="left-box flex-center">
+              <div class="discount-box flex-center">
+                <span>Enjoy</span>
+                <h6>20%</h6>
+                <span>Off</span>
+              </div>
+            </div>
+            <div class="right-box flex-center">
+              <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Maecenas eget libero lobortis, auctor nisi quis,
+                aliquet nunc. Nam dapibus lacus.</p>
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Read More</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="right-col">
+          <a href="#" class="price-box price-box-1 flex-center">
+            <div class="price-img">
+              <img src="images/price/price-1.jpg" alt="our price side image" title="price image info" loading="lazy">
+            </div>
+            <div class="price-info flex-center">
+              <h6>Haircut</h6>
+              <p>₹299</p>
+            </div>
+            <div class="booknow-btn">
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+            </div>
+
+          </a>
+          <a href="#" class="price-box price-box-2 flex-center">
+            <div class="price-img">
+              <img src="images/price/price-2.jpg" alt="our price side image" title="price image info" loading="lazy">
+            </div>
+            <div class="price-info flex-center">
+              <h6>Makeup</h6>
+              <p>₹599</p>
+            </div>
+            <div class="booknow-btn">
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+            </div>
+          </a>
+          <a href="#" class="price-box price-box-3 flex-center">
+            <div class="price-img">
+              <img src="images/price/price-3.jpg" alt="our price side image" title="price image info" loading="lazy">
+            </div>
+            <div class="price-info flex-center">
+              <h6>Manicure</h6>
+              <p>₹329</p>
+            </div>
+            <div class="booknow-btn">
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+            </div>
+          </a>
+          <a href="#" class="price-box price-box-4 flex-center">
+            <div class="price-img">
+              <img src="images/price/price-4.jpg" alt="our price side image" title="price image info" loading="lazy">
+            </div>
+            <div class="price-info flex-center">
+              <h6>Pedicure</h6>
+              <p>₹149</p>
+            </div>
+            <div class="booknow-btn">
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+            </div>
+          </a>
+          <a href="#" class="price-box price-box-5 flex-center">
+            <div class="price-img">
+              <img src="images/price/price-5.jpg" alt="our price side image" title="price image info" loading="lazy">
+            </div>
+            <div class="price-info flex-center">
+              <h6>Massage</h6>
+              <p>₹255</p>
+            </div>
+            <div class="booknow-btn">
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+            </div>
+          </a>
+          <a href="#" class="price-box price-box-6 flex-center">
+            <div class="price-img">
+              <img src="images/price/price-6.jpg" alt="our price side image" title="price image info" loading="lazy">
+            </div>
+            <div class="price-info flex-center">
+              <h6>Skin Care</h6>
+              <p>₹599</p>
+            </div>
+            <div class="booknow-btn">
+              <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <!-- ========== End section-pricing ========== -->
+
+    <!-- ========== Start section-team ========== -->
+    <section class="section-team section-padding">
+      <div class="container">
+        <div class="team-grid-box">
+          <div class="top-row">
+            <h6 class="heading-info-text">
+              Team Members
+            </h6>
+            <h2 class="heading-main">Our Experienced Specialists</h2>
+          </div>
+          <div class="btm-row">
+            <div class="member-box member-1">
+              <img src="images/team/team-1.jpg" alt="our team member image">
+
+              <div class="member-info-box flex-center">
+                <h6>Lily Roy</h6>
+                <p>Hair Specialist</p>
+                <div class="cta flex-center">
+                  <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                <div class="mob-btn flex-center member-top-slide">
+                  <i class="ri-arrow-up-s-line icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="member-box member-2">
+              <img src="images/team/team-2.jpg" alt="our team member image">
+              <div class="member-info-box flex-center">
+                <h6>Olivia Smith</h6>
+                <p>Nail Designer</p>
+                <div class="cta flex-center">
+                  <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                <div class="mob-btn flex-center member-top-slide">
+                  <i class="ri-arrow-up-s-line icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="member-box member-3">
+              <img src="images/team/team-3.jpg" alt="our team member image">
+
+              <div class="member-info-box flex-center">
+                <h6>Rie Sarkar</h6>
+                <p>Beauty Specialist</p>
+                <div class="cta flex-center">
+                  <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                <div class="mob-btn flex-center member-top-slide">
+                  <i class="ri-arrow-up-s-line icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="member-box member-4">
+              <img src="images/team/team-4.jpg" alt="our team member image">
+              <div class="member-info-box flex-center">
+                <h6>Nisha Roy</h6>
+                <p>Spa Specialist</p>
+                <div class="cta flex-center">
+                  <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+                  <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                <div class="mob-btn flex-center member-top-slide">
+                  <i class="ri-arrow-up-s-line icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-line-texture"></div>
+    </section>
+    <!-- ========== End section-team ========== -->
+
+    <!-- ========== Start section review ========== -->
+    <section class="section-review section-padding">
+      <div class="container">
+        <div class="review-grid-box">
+          <div class="top-row">
+            <h6 class="heading-info-text">
+              Testimonial
+            </h6>
+            <h2 class="heading-main">What Clients Say!</h2>
+          </div>
+          <div class="btm-row">
+            <div class="splide review-splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="review-flex-box flex-center">
+                      <div class="top-box flex-center">
+                        <i class="ri-double-quotes-l"></i>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
+                          ipsum et lorem et sit.</p>
+                      </div>
+                      <div class="btm-box flex-center">
+                        <img src="images/testimonial/testimonial-2.jpg" alt="our user profile image" width="100"
+                          height="100">
+                        <h6>Mrs. Gopika Marwadi</h6>
+                        <p>Rajasthan, Ajmer</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-flex-box flex-center">
+                      <div class="top-box flex-center">
+                        <i class="ri-double-quotes-l"></i>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
+                          ipsum et lorem et sit.</p>
+                      </div>
+                      <div class="btm-box flex-center">
+                        <img src="images/testimonial/testimonial-1.jpg" alt="our user profile image" width="100"
+                          height="100">
+                        <h6>Mrs. Ayonica Das</h6>
+                        <p>Mumbai, sector-5</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-flex-box flex-center">
+                      <div class="top-box flex-center">
+                        <i class="ri-double-quotes-l"></i>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
+                          ipsum et lorem et sit.</p>
+                      </div>
+                      <div class="btm-box flex-center">
+                        <img src="images/testimonial/testimonial-3.jpg" alt="our user profile image" width="100"
+                          height="100">
+                        <h6>Santosi Roy</h6>
+                        <p>West Bengal, Kolkata</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-flex-box flex-center">
+                      <div class="top-box flex-center">
+                        <i class="ri-double-quotes-l"></i>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
+                          ipsum et lorem et sit.</p>
+                      </div>
+                      <div class="btm-box flex-center">
+                        <img src="images/testimonial/testimonial-4.jpg" alt="our user profile image" width="100"
+                          height="100">
+                        <h6>Jyotika Varma</h6>
+                        <p>Bengaluru, Davanagere</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-flex-box flex-center">
+                      <div class="top-box flex-center">
+                        <i class="ri-double-quotes-l"></i>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
+                          ipsum et lorem et sit.</p>
+                      </div>
+                      <div class="btm-box flex-center">
+                        <img src="images/testimonial/testimonial-5.jpg" alt="our user profile image" width="100"
+                          height="100">
+                        <h6>Mrs. Adha Sharma</h6>
+                        <p>New Delhi, Patel Chowk</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End section review ========== -->
+
+    <!-- ========== Start section-gallery ========== -->
+    <section class="section-gallery section-padding">
+      <div class="container">
+        <div class="gallery-grid-box">
+          <div class="top-row">
+            <h6 class="heading-info-text">
+              Gallery
+            </h6>
+            <h2 class="heading-main">Explore Our Gallery</h2>
+          </div>
+          <div class="btm-row">
+            <div class="grid-box top">
+              <div class="gallery-img-box img-1"><img src="images/gallery/gallery-3.jpg" loading="lazy"
+                  alt="our gallery images" title="Our gallery">
+                <div class="img-info-box ">
+                  <div class="inner-box-flex flex-center">
+                    <div>
+                      <h6>Luxury Hair Makeover Session</h6>
+                      <p>Get 20% OFF your first Luxury Hair Makeover!</p>
+                    </div>
+                    <div class="btn">
+                      <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="mob-btn flex-center member-top-slide">
+                    <i class="ri-arrow-up-s-line icon"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-img-box img-2"><img src="images/gallery/gallery-2.jpg" loading="lazy"
+                  alt="our gallery images" title="Our gallery">
+                <div class="img-info-box ">
+                  <div class="inner-box-flex flex-center">
+                    <div>
+                      <h6>Frizz-Free Blowout</h6>
+                      <p>Now only <s>799</s> ₹599 – First-time Blowout Offer!</p>
+                    </div>
+                    <div class="btn">
+                      <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="mob-btn flex-center member-top-slide">
+                    <i class="ri-arrow-up-s-line icon"></i>
+                  </div>
+                </div>
+
+              </div>
+              <div class="gallery-img-box img-3"><img src="images/gallery/gallery-1.jpg" loading="lazy"
+                  alt="our gallery images" title="Our gallery">
+
+                <div class="img-info-box ">
+                  <div class="inner-box-flex flex-center">
+                    <div>
+                      <h6>Signature Blow-Dry & Style</h6>
+                      <p>Save 15% this week on all Signature Blow-Dry bookings!</p>
+                    </div>
+                    <div class="btn">
+                      <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="mob-btn flex-center member-top-slide">
+                    <i class="ri-arrow-up-s-line icon"></i>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="grid-box btm">
+              <div class="gallery-img-box img-4"><img src="images/gallery/gallery-6.jpg" loading="lazy"
+                  alt="our gallery images" title="Our gallery">
+
+                <div class="img-info-box ">
+                  <div class="inner-box-flex flex-center">
+                    <div>
+                      <h6>Frizz-Free Blowout</h6>
+                      <p>Now only <s>799</s> ₹599 – First-time Blowout Offer!</p>
+                    </div>
+                    <div class="btn">
+                      <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="mob-btn flex-center member-top-slide">
+                    <i class="ri-arrow-up-s-line icon"></i>
+                  </div>
+                </div>
+
+              </div>
+              <div class="gallery-img-box img-5"><img src="images/gallery/gallery-5.jpg" loading="lazy"
+                  alt="our gallery images" title="Our gallery">
+
+                <div class="img-info-box ">
+                  <div class="inner-box-flex flex-center">
+                    <div>
+                      <h6>Frizz-Free Blowout</h6>
+                      <p>Now only <s>799</s> ₹599 – First-time Blowout Offer!</p>
+                    </div>
+                    <div class="btn">
+                      <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="mob-btn flex-center member-top-slide">
+                    <i class="ri-arrow-up-s-line icon"></i>
+                  </div>
+                </div>
+
+              </div>
+              <div class="gallery-img-box img-6"><img src="images/gallery/gallery-4.jpg" loading="lazy"
+                  alt="our gallery images" title="Our gallery">
+
+                <div class="img-info-box ">
+                  <div class="inner-box-flex flex-center">
+                    <div>
+                      <h6>Frizz-Free Blowout</h6>
+                      <p>Now only <s>799</s> ₹599 – First-time Blowout Offer!</p>
+                    </div>
+                    <div class="btn">
+                      <a href="" class="border-design border-design-btn border-design-btn-padding">Book Now</a>
+                    </div>
+                  </div>
+
+                  <div class="mob-btn flex-center member-top-slide">
+                    <i class="ri-arrow-up-s-line icon"></i>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End section-gallery ========== -->
+    <!-- ========== Start section-blog ========== -->
+    <section class="section-blog section-padding">
+
+      <div class="blog-grid-box">
+        <div class="top-row">
+          <h6 class="heading-info-text">
+            Style Files
+          </h6>
+          <h2 class="heading-main"> Our Beauty Blog</h2>
+        </div>
+        <div class="btm-row">
+          <!-- btm-1 -->
+          <div class="btm-two-col btm-col-1">
+            <!-- left-col -->
+            <div class="left-col flex-center">
+              <div class="top flex-center">
+                <div class="date-box">
+                  <i class="ri-calendar-2-fill"></i> <span>Jan 10, 2024</span> | <i class="ri-folder-2-fill"></i> Hair
+                  Salon
+                </div>
+                <h6>How to Extend The Life of Your Haircolor</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget libero lobortis, auctor nisi
+                  quis, aliquet nunc. Nam dapibus interdum lacus.</p>
+                <a href="" class="border-design border-design-btn border-design-btn-padding">Read more</a>
+              </div>
+
+
+            </div>
+            <!-- right col -->
+            <div class="right-col">
+              <img src="images/blog/blog-1.jpg" alt="blog sectioon image of hair salon">
+            </div>
+
+          </div>
+          <!-- btm-2 -->
+          <div class="btm-two-col btm-col-2">
+            <!-- left-col -->
+            <div class="left-col flex-center">
+              <div class="top flex-center">
+                <div class="date-box">
+                  <i class="ri-calendar-2-fill"></i> <span>Mar 17, 2024</span> | <i class="ri-folder-2-fill"></i> Hair
+                  Salon
+                </div>
+                <h6>Hottest Hairstyles and Haircuts in 2025</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget libero lobortis, auctor nisi
+                  quis, aliquet nunc. Nam dapibus interdum lacus.</p>
+                <a href="" class="border-design border-design-btn border-design-btn-padding">Read more</a>
+              </div>
+
+
+            </div>
+            <!-- right col -->
+            <div class="right-col">
+              <img src="images/blog/blog-2.jpg" alt="blog sectioon image of hair salon">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ========== End section-blog ========== -->
+  </main>
+  <!-- ========== Start footer ========== -->
+  <footer>
+    <div class="container">
+      <!-- footer -top -->
+      <div class="footer-top">
+        <div class="footer-grid-box">
+          <div class="left-col top-col-1 flex-center">
+            <div class="footer-logo">
+              <img src="images/header/logo.png" alt="footer logo image">
+            </div>
+            <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita
+              dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+            <ul>
+              <li><i class="ri-map-pin-2-fill"></i><span>16, Anupama Road, kolkata- 700056</span></li>
+              <li><i class="ri-phone-fill"></i><a href="tel:+918930040433">8930040433</a></li>
+              <li><i class="ri-mail-fill"></i><a href="mailto:velora-care@gmail.com">velora-care@gmail.com</a></li>
+            </ul>
+            <div class="footer-social">
+              <a class="border-design" href=""><i class="ri-facebook-fill"></i></a>
+              <a class="border-design" href=""><i class="ri-instagram-fill"></i></a>
+              <a class="border-design" href=""><i class="ri-linkedin-fill"></i></a>
+            </div>
+
+          </div>
+          <div class="right-col top-col-2 flex-center">
+            <div class="quick-links">
+              <div class="link-box flex-center">
+                <h6>Quick Links</h6>
+                <ul>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>About</li>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>Contact Us</li>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>Our Services</li>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>Terms & Condition</li>
+                </ul>
+              </div>
+              <div class="link-box flex-center">
+                <h6>Quick Links</h6>
+                <ul>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>About</li>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>Contact Us</li>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>Our Services</li>
+                  <li class="flex-center"><i class="ri-arrow-right-s-line"></i>Terms & Condition</li>
+                </ul>
+              </div>
+            </div>
+            <div class="subscription flex-center">
+              <h4>Newsletter</h4>
+              <div class="letter-box flex-center">
+                <input type="text">
+                <button type="submit" class="flex-center"><i class="ri-send-plane-fill"></i></button>
+              </div>
+              <p>Don't worry! your email is safe with us.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer-btm -->
+    <div class="footer-btm flex-center">
+      <div class="container">
+        <div class="footer-btm-box flex-center">
+          <p>© VELORA, All Right Reserved.</p>
+          <div class="links flex-center">
+            <a href="#">Terms & condition </a>
+            <a href="#">Privacy Plicy</a>
+            <p>Maintain by Hriday</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- scroll to top -->
+  <a class="back-to-top border-design border-design-btn border-design-btn-padding">
+    <i class="ri-arrow-up-double-line"></i>
+  </a>
+  <!-- ========== End footer ========== -->
+
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="Js/script.js"></script>
+</body>
+
+</html>
